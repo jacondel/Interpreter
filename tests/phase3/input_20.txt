@@ -1,0 +1,20 @@
+push y
+push 5
+bind
+let
+push y
+push 7
+bind
+fun addY x
+let
+push x
+push y
+add
+end
+return
+funEnd
+push 2
+push addY
+call
+end
+quit

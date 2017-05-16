@@ -1,0 +1,17 @@
+inOutFun always2 x
+push x
+push 2
+bind
+funEnd
+pop
+push a
+push 3
+bind
+pop
+push a
+push always2
+call
+push a
+push a
+add
+quit

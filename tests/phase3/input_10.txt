@@ -1,0 +1,15 @@
+fun exp1 x
+push "Definition 1"
+return
+funEnd
+:true:
+push exp1
+call
+fun exp1 x
+push "Definition 2"
+return
+funEnd
+:false:
+push exp1
+call
+quit

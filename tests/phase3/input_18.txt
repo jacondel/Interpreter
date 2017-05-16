@@ -1,0 +1,10 @@
+fun identity x
+let
+push x
+end
+return
+funEnd
+push 1
+push identity
+call
+quit

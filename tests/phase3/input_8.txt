@@ -1,0 +1,7 @@
+push notAFunction
+push 3
+bind
+push 4
+push notAFunction
+call
+quit

@@ -1,0 +1,21 @@
+fun F f
+:false:
+return
+funEnd
+fun T t
+:true:
+return
+funEnd
+fun choose a
+push a
+push F
+push T
+if
+return
+funEnd
+:false:
+:true:
+push choose
+call
+call
+quit
